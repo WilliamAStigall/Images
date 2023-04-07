@@ -21,13 +21,14 @@ from selenium.webdriver.support import expected_conditions as EC
 """
 This File is used to construct the dataset and is separated from the rest of the program for better encapsulation
 """
-"""METHODOLOGY First we import a dataset of around 100-200 unblurred images #Images will be collected via webcrawler 
-from pexels.com Second Preprocess the data for use in the program creating our finalized dataset Third using 
-mathplotlib and numpy we are going to apply Gaussian Blur to all the images for use in the Artificial Neural Network 
-we create Fourth Define the ANN Architecture using Tensorflow with input and output layers for median filtering and 
-Gaussian Filter Train the network Measure Performance Fifth Apply edge detection algorithm to the filtered image to 
-extract edges Display all 3 images """
-
+"""METHODOLOGY
+First we import a dataset of around 100-200 unblurred images #Images will be collected via webcrawler 
+from pexels.com 
+Second Preprocess the data for use in the program creating our finalized dataset 
+Third using mathplotlib and numpy we are going to apply Gaussian Blur to all the images for use in the Artificial Neural Network 
+we create
+Fourth Define the ANN Architecture using Tensorflow
+"""
 """
 Functions
 """
