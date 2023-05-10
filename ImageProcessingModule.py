@@ -178,9 +178,10 @@ def roberts_operator(image):
      """
     # Create Robert's Operator kernels
     #45 degree angle
-    kernel_1 = np.array([[0, 0, 0], [0, 1, 0], [0, 0, -1]])
+    kernel_1 = np.array([[1, 0], [0, -1]])
+    kernel_2 = np.array([[0, 1], [-1, 0]])
     #135 degree angle
-    kernel_2 = np.array([[0, 0, 0], [0, 0, 1], [0, -1, 0]])
+
 
     # Apply kernels to image
     filtered_image_1 = convolution(image, kernel_1)
